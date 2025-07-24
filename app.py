@@ -565,7 +565,7 @@ st.markdown("""
 - **No Data**: Try different forex pair or timeframe
 """)
 
-st.markdown("*🎯 Now with enhanced error handling and fallback mechanisms!*") Management
+st.markdown("*🎯 Now with enhanced error handling and fallback mechanisms!*")
 def get_api_key():
     """Get API key from multiple sources with priority"""
     # 1. Try Streamlit secrets (for cloud deployment)
